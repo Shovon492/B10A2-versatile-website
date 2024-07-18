@@ -21,6 +21,9 @@ color: #FFFFFF;
     padding: 4px 20px;
     border-radius: 46px;
 }
+.text-center{
+    text-align: center;
+}
 /* nav-styles */
 nav{
     display: flex;
@@ -44,6 +47,9 @@ nav li a{
     text-decoration: none;
     font-size: 18px;
 }
+.header{
+    background-color: #111111;
+}
 /* banner styles */
 .banner{
     display: flex;
@@ -56,7 +62,27 @@ nav li a{
 .banner-title{
     font-weight: mixed;
     font-size: 78px;
+    color: #FFFFFF;
+}
+.banner-description, .skills-container{
+    color: #FFFFFF;
 }
 .banner-profile-picture{
     width: 520px;
+}
+/* main section style */
+.main-section{
+    margin-bottom: 130px;
+}
+/* skills section styles */
+.skills-container{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    background-color: #111111;
+}
+.skill{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 48px 0px rgba(0, 0, 0, 1);
 }
